@@ -3,7 +3,10 @@ import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <section aria-labelledby="home-hero-title" className="py-12 sm:py-16">
+    <section
+      aria-labelledby="home-hero-title"
+      className="pt-12 pb-7 sm:pt-16 sm:pb-9"
+    >
       <div className="grid items-center gap-10 md:grid-cols-2">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.12em] text-zinc-500">
@@ -25,7 +28,7 @@ export function HeroSection() {
             FPGA development, hardware verification, and high-performance
             computing. I enjoy solving complex engineering problems and building
             systems that bridge theory and real-world hardware. The purpose of
-            this site is to highlight engineering accomplishments I am proud of.
+            this site is to highlight accomplishments I am proud of.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
